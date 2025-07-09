@@ -1,0 +1,30 @@
+ Capstone Project: SIADUM (Sistem Irigasi Dua Musim Berbasis IoT)
+
+ 📘 Deskripsi Proyek
+Proyek ini bertujuan untuk membangun sistem irigasi otomatis yang dapat digunakan di area persawahan dataran rendah. Sistem ini dirancang untuk memantau dan mengendalikan aliran air secara otomatis berdasarkan kondisi lingkungan di dua musim: musim kemarau dan musim hujan.
+
+ 🌐 Komponen dan Teknologi
+ Sensor:
+- Soil Moisture Sensor: Mengukur tingkat kelembaban tanah.
+- Ultrasonic Sensor HC-SR04: Mendeteksi ketinggian permukaan air.
+
+ Aktuator:
+- Servo Motor: Membuka dan menutup saluran irigasi secara otomatis.
+
+ Kendali Sistem:
+- Mikrokontroler: ESP8266
+- Dashboard IoT: Untuk monitoring data secara real-time melalui internet.
+
+ 📊 Fitur Utama
+- Pemantauan kelembaban tanah dan ketinggian air
+- Pengendalian irigasi otomatis berdasarkan kondisi lingkungan
+- Akses data secara real-time melalui dashboard IoT
+
+ 🛠️ Penggunaan
+1. Upload file `.ino` ke board ESP8266 via Arduino IDE.
+2. Pastikan semua sensor dan aktuator telah terhubung dengan benar.
+3. Hubungkan ESP8266 ke jaringan Wi-Fi.
+4. Buka dashboard IoT untuk melihat data dan status sistem secara langsung.
+
+ 👨‍💻 Author
+Fachreza Aldy Ardana
